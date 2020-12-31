@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom|fill_vertical"
+    android:orientation="vertical" > 
+
+    <EditText
+        android:id="@+id/edWord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintedtext"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Spinner
+			android:id="@+id/spinner_choose"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Button
+			android:id="@+id/btnthemtu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Thêm từ mới" />
+		</LinearLayout>
+
+	<ListView
+		android:id="@+id/lstWord"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:divider="#f9f9f9"
+		android:dividerHeight="5dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tv.dict.ndc.dict.Translate.TranslateMain">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:capitalize="none"
+            android:ems="10"
+            android:gravity="top|left"
+            android:layout_marginRight="50dp"
+            android:hint=""
+            android:inputType="text|textMultiLine|textCapSentences"
+            android:minLines="1" />
+
+        <ImageButton
+            android:id="@+id/imgbtnen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_volume"
+            android:layout_gravity="bottom|right"
+            android:background="#00000000"
+            android:padding="10dp"/>
+    </FrameLayout>
+
+    <RadioButton
+        android:id="@+id/radioeng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English -> Vietnamese" />
+
+    <RadioButton
+        android:id="@+id/radioviet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vietnamese -> English" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:overScrollMode="always"
+            android:fillViewport="true"
+            android:layout_marginRight="50dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:enabled="true"
+                android:textIsSelectable="true"
+                android:focusable="true"
+                android:longClickable="true"
+                android:textSize="18sp"
+                android:textColor="#303030"
+/>
+        </ScrollView>
+        <ImageButton
+            android:id="@+id/imgbtnvi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_volume"
+            android:layout_gravity="bottom|right"
+            android:background="#00000000"
+            android:padding="10dp"/>
+    </FrameLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/linearLayout"
+                android:layout_alignParentBottom="true"
+                android:text="Camera Options:" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_above="@+id/linearLayout"
+
+                android:layout_alignParentBottom="true">
+                <CheckBox
+                    android:id="@+id/auto_focus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auto_focus"
+                    android:layout_above="@+id/read_text"
+                    android:layout_alignParentStart="true"
+                    android:checked="true" />
+
+                <CheckBox
+                    android:id="@+id/use_flash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/text_value"
+                    android:layout_alignTop="@+id/auto_focus"
+                    android:checked="false"
+                    android:text="@string/use_flash" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/button4"
+                android:text="Translate"
+                android:background="#2fafff"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/read_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Camera"
+                android:background="#fca242"
+                android:textColor="#ffffff"
+                android:textSize="18sp"/>
+            <Button
+                android:id="@+id/btnspeak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Speak"
+                android:background="#12fc7b"
+                android:textColor="#ffffff"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btndict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button4"
+                android:text="Dictionary"
+                android:background="#dff235"
+                android:textColor="#ffffff"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

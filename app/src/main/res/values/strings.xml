@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EFS</string>
+    <string name="dbExtension">.db</string>
+    <string name="errorWordNotFound">Không tìm thấy từ </string>
+    <string name="back">Quay lại</string>
+    <string name="hintedtext">Nhập từ cần tra vào đây</string>
+    <string name="btnincontent">ImageButton in content</string>
+    <string name="txtAddnewword">Nhập từ mới:</string>
+    <string name="txtAddcontent">Nhập nghĩa của từ:</string>
+    <string name="btnphat_am">Phát âm</string>
+    <string name="btndongy">Đồng ý</string>
+    <string name="btnthem">Thêm từ mới</string>
+    <string name="btnTranslate">Dịch</string>
+    <string name="btnChangeDirection">btnChangeDirection</string>
+    <string name="url">thuanvo.efs</string>
+
+    <string name="subapp_name">English for Students</string>
+    <string name="version">Version</string>
+    <string name="email">Email</string>
+    <string name="subemail">anhthuan250901@hotmail.com</string>
+    <string name="report">Report</string>
+
+    <string name="intro">Press the button to speak!</string>
+    <string name="speech">Speak now!</string>
+    <string name="word_intro">Suggested words&#8230;</string>
+    <!--a-->
+    <string name="unit1">Unit 1: A Day in The Life of...</string>
+    <string name="unit2">Unit 2: School Talks</string>
+    <string name="unit3">Unit 3: People\'s Background</string>
+    <string name="unit4">Unit 4 :Special Education</string>
+    <string name="unit5">Unit 5 :Technology and you</string>
+    <string name="unit6">Unit 6: An Excursion</string>
+    <string name="unit7">Unit 7: The mass media</string>
+    <string name="unit8">Unit 8: The story of my village</string>
+    <string name="unit9">Unit 9 : Undersea World</string>
+    <string name="unit10">Unit 10: Conservation</string>
+    <string name="unit11">Unit 11 : National parks</string>
+    <string name="unit12">Unit 12: Music</string>
+    <string name="unit13">Unit 13: Films and cinema</string>
+    <string name="unit14">Unit 14: The world cup</string>
+    <string name="unit15">Unit 15: Cities</string>
+    <string name="unit16">Unit 16: Historical places</string>
+
+
+    <string name="nameu1">U1: A Day in The Life of...</string>
+    <string name="nameu2">U2: School Talks</string>
+    <string name="nameu3">U3: People\'s Background</string>
+    <string name="nameu4">U4: Special Education</string>
+    <string name="nameu5">U5: Technology and you</string>
+    <string name="nameu6">U6: An Excursion</string>
+    <string name="nameu7">U7: The mass media</string>
+    <string name="nameu8">U8: The story of my village</string>
+    <string name="nameu9">U9: Undersea World</string>
+    <string name="nameu10">U10: Conservation</string>
+    <string name="nameu11">U11: National parks</string>
+    <string name="nameu12">U12: Music</string>
+    <string name="nameu13">U13: Films and cinema</string>
+    <string name="nameu14">U14: The world cup</string>
+    <string name="nameu15">U15: Cities</string>
+    <string name="nameu16">U16: Historical places</string>
+    <!--ss-->
+    <string name="subs_dict">Dictionary</string>
+    <string name="subs_listen">Listening</string>
+    <string name="subs_voc">Vocabulary</string>
+    <string name="subs_grammar">Grammar</string>
+    <string name="subs_speak">Speaking</string>
+    <string name="subs_trans">Translator</string>
+    <string name="subs_voice">Voice of American</string>
+    <string name="subs_games">Games</string>
+    <string name="subs_sets">Information</string>
+    <!--ss-->
+    <string name="subst_dict">E-V and V-E Dictionary</string>
+    <string name="subst_listen">Grade 10: Unit 1 - Unit 16</string>
+    <string name="subst_voc">Grade 10: Unit 1 - Unit 16</string>
+    <string name="subst_grammar">Tenses</string>
+    <string name="subst_speak">Recording and repairing your voice</string>
+    <string name="subst_trans">Online translate</string>
+    <string name="subst_voice">Learning English by video</string>
+    <string name="subst_games">Games</string>
+    <string name="subst_sets">Information</string>
+    <!--grammar-->
+    <string name="grammar1">Simple Present</string>
+    <string name="grammar2">Present Continuous</string>
+    <string name="grammar3">Simple Past</string>
+    <string name="grammar4">Past Continuous</string>
+    <string name="grammar5">Present Perfect</string>
+    <string name="grammar6">Present Perfect Continuous</string>
+    <string name="grammar7">Past Perfect</string>
+    <string name="grammar8">Simple Future</string>
+    <string name="grammar9">Be going to</string>
+    <string name="grammar10">Future Continuous</string>
+    <string name="grammar11">Future Perfect</string>
+    <string name="grammar12">Future Perfect Continuous</string>
+
+
+    <string name="subgram1"></string>
+    <string name="subgram2"></string>
+    <string name="subgram3"></string>
+    <string name="subgram4"></string>
+    <string name="subgram5"></string>
+    <string name="subgram6"></string>
+    <string name="subgram7"></string>
+    <string name="subgram8"></string>
+    <string name="subgram9"></string>
+    <string name="subgram10"></string>
+    <string name="subgram11"></string>
+    <string name="subgram12"></string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure"><!--No text captured--></string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+
+    <!---->
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+</resources>

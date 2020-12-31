@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="bottom|fill_vertical"
+	android:background="#ffffff"
+>
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:layout_weight="0.1"
+	>
+
+		<TextView
+		    android:id="@+id/txttitle"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:background="#0000ff"
+		    android:gravity="center"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:textColor="#ffff00" 
+		    />
+	
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:scrollbars="vertical"
+		android:layout_weight="2"
+		>
+		<WebView  
+			android:id="@+id/wvContent"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="top" 
+	
+		/>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="left"
+	    android:orientation="horizontal" >
+
+		<ImageButton
+		    android:id="@+id/btnback"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:contentDescription="@string/btnincontent"
+		    android:src="@drawable/back" />
+
+		<ImageButton
+		    android:id="@+id/btnspeak"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:contentDescription="@string/btnincontent"
+		    android:src="@drawable/speak" />
+
+		<ImageButton
+		    android:id="@+id/btnAddfavourite"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:contentDescription="@string/btnincontent"
+		    android:src="@drawable/favorite_add" />
+
+		<ImageButton
+		    android:id="@+id/btnRemovefavourite"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:contentDescription="@string/btnincontent"
+		    android:src="@drawable/favorite_remove" />
+	</LinearLayout>	
+</LinearLayout>
